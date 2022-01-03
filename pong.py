@@ -106,6 +106,7 @@ while True:
         ball.goto(0,0)
         ball.dx *= -1
         score_two += 1
+        pen.clear()
         pen.write("Player One: {} Player Two: {} ".format(score_one, score_two), align="center", font=("Courier", 24, "normal"))
 
 
